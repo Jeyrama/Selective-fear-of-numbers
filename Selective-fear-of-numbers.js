@@ -14,3 +14,6 @@ Sunday --> 666 or -666
 Write a function which takes a string (day of the week) and an integer 
 (number to be tested) so it tells the doctor if I'm afraid or not. (return a boolean)
 */
+
+
+//Solution
