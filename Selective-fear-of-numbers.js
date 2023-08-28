@@ -31,3 +31,33 @@ function AmIAfraid(day, num) {
 }
 
 // or
+
+let amIAfraid = function(day, num){
+  let days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+  
+  let index = days.indexOf(day);
+  
+  switch (index){
+    case 0:
+      return num === 12
+    case 1:
+      return num > 95
+    case 2:
+      return num === 34
+    case 3:
+      return num === 0
+    case 4:
+      return num % 2 === 0
+    case 5:
+      return num === 56
+    case 6:
+      return num === 666 || num === -666
+    }
