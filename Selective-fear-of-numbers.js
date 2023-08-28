@@ -29,3 +29,5 @@ function AmIAfraid(day, num) {
     "Sunday"    : Math.abs(num) === 666
   }[day];
 }
+
+// or
