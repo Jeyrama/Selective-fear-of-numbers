@@ -60,4 +60,5 @@ let amIAfraid = function(day, num){
       return num === 56
     case 6:
       return num === 666 || num === -666
-    }
+  }
+}
